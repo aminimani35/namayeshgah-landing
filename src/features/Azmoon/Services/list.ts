@@ -13,11 +13,11 @@ export interface Item {
 
 
 export const list: Item[] = [
-    {img: PishSabteNam, caption: "پیش ثبت نام", link: ""},
-    {img: ListeNamayandegi, caption: "پیش ثبت نام", link: ""},
-    {img: SabteNameNamayandegi, caption: "پیش ثبت نام", link: ""},
-    {img: HaleSoal, caption: "پیش ثبت نام", link: ""},
-    {img: Clinic, caption: "پیش ثبت نام", link: ""},
-    {img: Hekmat, caption: "پیش ثبت نام", link: ""},
+    {img: PishSabteNam, caption: "پیش ثبت نام", link: "https://azmoon.gaj.ir/Home/PreRegister"},
+    {img: ListeNamayandegi, caption: "لیست نمایندگی ها", link: "https://azmoon.gaj.ir/home/Province"},
+    {img: SabteNameNamayandegi, caption: "ثبت‌نام نمایندگی‌ها", link: "https://azmoon.gaj.ir/Home/PreRegisterNama"},
+    {img: HaleSoal, caption: "حل سوالات آزمون‌ها", link: "https://www.driq.com/%D8%B3%D8%A7%D9%84-1404-1403"},
+    {img: Clinic, caption: "کلینیک مشاوره", link: "https://azmoon.gaj.ir/home/clinic"},
+    {img: Hekmat, caption: "ثبت‌نام طرح حکمت", link: "https://tbao.ir/Company?company=109"},
 
 ]

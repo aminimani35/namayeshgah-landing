@@ -7,7 +7,7 @@ export const GajMarket = () => {
 
 
     return (
-        <section className="flex flex-col w-full items-center gap-[24px] ">
+        <section className="flex flex-col w-full items-center gap-[24px]" id="gajmarket">
             <Introduction/>
             <AllProducts/>
             <CategoryList/>

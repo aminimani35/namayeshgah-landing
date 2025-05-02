@@ -10,7 +10,8 @@ export const BrandCarousel = () => {
                         className="w-[8.8rem] h-[8.8rem] flex-shrink-0"
                         key={index}
                     >
-                        <a href={brand.link} target="_blank" rel="noreferrer">
+                        <a href={brand.link} target="_blank" rel="noreferrer" data-tracking={`gm_sec3_${index + 1}`}
+                           id={`gm_sec3_${index + 1}`}>
 
                             <img
                                 className="w-full h-full object-contain"

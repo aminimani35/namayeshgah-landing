@@ -4,7 +4,7 @@ import {CountDown} from "./CountDown";
 
 export const Azmoon = () => {
     return (
-        <section className="gaj flex flex-col w-full items-center  gap-[24px]">
+        <section className="gaj flex flex-col w-full items-center  gap-[24px]" id="azmoon">
             <Introduction/>
             <Services/>
             <CountDown/>

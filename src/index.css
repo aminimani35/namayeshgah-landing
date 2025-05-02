@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 
+@theme {
+    --breakpoint-md: 1024px;
+}
+
 :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;

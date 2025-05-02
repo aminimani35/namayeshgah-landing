@@ -1,7 +1,7 @@
 import Gaj from "../../../../assets/Gajmarket/publication/gaj.png";
 import Cup from "../../../../assets/Gajmarket/publication/cup.png";
 import Charkhooneh from "../../../../assets/Gajmarket/publication/charkhooneh.png";
-// import Daryaft from "../../../../assets/Gajmarket/publication/daryaft.png";
+// import Daryaft from "../../../../bottom-nav-icons/Gajmarket/publication/daryaft.png";
 import Fatemi from "../../../../assets/Gajmarket/publication/fatemi.png";
 import Farzanegan from "../../../../assets/Gajmarket/publication/farzanegan.png";
 import Ghalamchi from "../../../../assets/Gajmarket/publication/ghalamchi.png";
