@@ -13,7 +13,7 @@ export const CategoryList = () => {
                        id={`gm_sec2_${i + 1}`}
                     >
                         {/*<span>{discount}</span>*/}
-                        <div className="media max-w-[120px] max-h-[135px] ">
+                        <div className="media max-w-[120px] max-h-[135px] md:mb-4">
                             <img src={category.img} alt={category.label} loading="lazy"/>
                         </div>
                         <span className="caption font-bold text-[12px]">{category.label}</span>

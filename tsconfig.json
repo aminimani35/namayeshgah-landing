@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "typeRoots": ["./src/types", "./node_modules/@types"]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/custom.d.ts"],
+
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
