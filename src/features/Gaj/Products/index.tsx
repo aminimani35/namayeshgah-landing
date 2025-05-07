@@ -12,7 +12,7 @@ export const Products = () => {
                            data-tracking={`gaj_sec1_${i + 1}`}
                            id={`gaj_sec1_${i + 1}`}>
 
-                            <img src={item.img} alt={item.title} className="rounded-[8px] md:mb-4"/>
+                            <img src={item.img} alt={item.title} className="rounded-[8px] mb-4 md:mb-4"/>
                             <span className="caption text-[12px] font-bold">
                         {item.title}
                     </span>

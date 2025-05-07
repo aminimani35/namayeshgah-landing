@@ -14,7 +14,7 @@ function App() {
             {/*<TopHeader/>*/}
 
             <main
-                className="px-[16px] mt-[80px] mx-auto flex flex-col gap-[180px] max-w-[1024px] mx-auto">
+                className="px-[16px] mt-[80px] mx-auto flex flex-col gap-[180px] max-w-[1024px]">
                 <GajMarket/>
                 <Gaj/>
                 <Azmoon/>

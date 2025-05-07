@@ -45,20 +45,19 @@ export const Countdown: React.FC<CountdownProps> = ({targetDate}) => {
         <div className="flex flex-col gap-[8px]">
           
 
-            <div className="flex space-x-4 text-center items-center gap-[8px]">
-
+            <div className="flex space-x-0 justify-center text-center items-center gap-[8px]">
                 <div>
                     <CountDownPaper unit="ثانیه" value={timeLeft.seconds}/>
                 </div>
-
+                <p className='text-4xl pb-5'>:</p>
                 <div>
                     <CountDownPaper unit="دقیقه" value={timeLeft.minutes}/>
                 </div>
-
+                <p className='text-4xl pb-5'>:</p>
                 <div>
                     <CountDownPaper unit="ساعت" value={timeLeft.hours}/>
                 </div>
-
+                <p className='text-4xl pb-5'>:</p>
                 <div>
                     <CountDownPaper unit="روز" value={timeLeft.days}/>
                 </div>

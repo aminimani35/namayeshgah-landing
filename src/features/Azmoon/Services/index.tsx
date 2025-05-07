@@ -17,7 +17,7 @@ export const Services = () => {
                         >
 
 
-                            <img src={item.img} alt={item.caption} className="md:w-[140px] md:h-[140px] md:mb-4"/>
+                            <img src={item.img} alt={item.caption} className="md:w-[140px] md:h-[140px] mb-4 md:mb-4"/>
                             <span className="text-[12px] font-bold">
                         {item.caption}
                     </span>
