@@ -6,9 +6,12 @@ export const Services = () => {
 
             <div className="grid grid-cols-2 grid-rows-2  gap-4 md:flex md:gap-[16px]">
                 {GajinoServices.map((service) => (
-                    <a key={service.img} href={""}>
-                        <img src={service.img} alt="Gajino"/>
-                    </a>
+                    // <a key={service.img} href={""}>
+                    <div>
+
+                        <img src={service.img} alt="Gajino" key={Math.random()}/>
+                    </div>
+                    // </a>
                 ))}
             </div>
 
